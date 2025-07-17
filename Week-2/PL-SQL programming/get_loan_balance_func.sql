@@ -1,3 +1,4 @@
+-- Function to get loan balance by ID
 CREATE OR REPLACE FUNCTION GetLoanBalance(p_LoanID IN NUMBER)
 RETURN NUMBER
 IS
@@ -19,3 +20,11 @@ EXCEPTION
 END;
 /
 
+-- Example usage:
+DECLARE
+    loanAmount NUMBER;
+BEGIN
+    loanAmount := GetLoanBalance(2001);
+    DBMS_OUTPUT.PUT_LINE('Loan Balance: ₹' || loanAmount);
+END;
+/
