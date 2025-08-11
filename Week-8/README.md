@@ -1,6 +1,6 @@
 # Week-8 Git HOL Exercises
 
-This folder contains files for all 5 Git HOL assignments.
+This folder contains files for all 5 Git Hands-on-Learning assignments.
 
 ## HOL1
 - Basic Git setup
